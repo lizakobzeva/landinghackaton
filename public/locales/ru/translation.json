@@ -6,5 +6,8 @@
     "hackathon": "ХАКАТОН",
     "BeforBeginning": "До начала",
     "apply": "Подать заявку"
+  },
+  "slider": {
+    "title": "Направления"
   }
 }

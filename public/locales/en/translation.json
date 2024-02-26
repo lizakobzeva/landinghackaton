@@ -6,5 +6,8 @@
     "hackathon": "HACKATHON",
     "BeforBeginning": "Before the start",
     "apply": "Apply"
+  },
+  "slider": {
+    "title": "Directions"
   }
 }
