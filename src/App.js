@@ -179,9 +179,7 @@ function App() {
               return (
                 <div className="discriptionBlockItem">
                   <p>{direct}</p>
-                  <a href={`${DataHref[directionNum][id]}`}>
-                    {t(`main.apply`)}
-                  </a>
+                  <a href={`${DataHref[directionNum][id]}`}>Подать заявку</a>
                 </div>
               );
             })}
