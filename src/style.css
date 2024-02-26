@@ -110,7 +110,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(1, 157, 161);
   border-radius: 0 0 30px 30px;
 }
 .slider .inner .directions .direction .description p {
@@ -125,20 +124,38 @@ a {
 .slider .inner .directions .dir0 {
   background-image: url(../public/img/first.jpg);
 }
+.slider .inner .directions .dir0 .description {
+  background: #c63252;
+}
 .slider .inner .directions .dir1 {
   background-image: url(../public/img/second.jpg);
+}
+.slider .inner .directions .dir1 .description {
+  background: #8c32a2;
 }
 .slider .inner .directions .dir2 {
   background-image: url(../public/img/direction.png);
 }
+.slider .inner .directions .dir2 .description {
+  background: rgb(1, 157, 161);
+}
 .slider .inner .directions .dir3 {
   background-image: url(../public/img/four.jpg);
+}
+.slider .inner .directions .dir3 .description {
+  background: #2e1d67;
 }
 .slider .inner .directions .dir4 {
   background-image: url(../public/img/five.jpg);
 }
+.slider .inner .directions .dir4 .description {
+  background: #eccb43;
+}
 .slider .inner .directions .dir5 {
   background-image: url(../public/img/six.jpg);
+}
+.slider .inner .directions .dir5 .description {
+  background: #b6b2cd;
 }
 .slider .inner .directions .active {
   width: 600px;
@@ -146,7 +163,7 @@ a {
 .slider .inner .directions .active .description {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  background: rgba(1, 157, 161, 0.5);
+  opacity: 0.9;
 }
 .slider .inner .directions .active .description p {
   color: white;

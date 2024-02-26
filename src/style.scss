@@ -107,7 +107,7 @@ a {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: rgba(1, 157, 161);
+
           border-radius: 0 0 30px 30px;
           p {
             transition: 0.5s;
@@ -122,27 +122,45 @@ a {
       }
       & .dir0 {
         background-image: url(../public/img/first.jpg);
+        .description {
+          background: #c63252;
+        }
       }
       & .dir1 {
         background-image: url(../public/img/second.jpg);
+        .description {
+          background: #8c32a2;
+        }
       }
       & .dir2 {
         background-image: url(../public/img/direction.png);
+        .description {
+          background: rgba(1, 157, 161);
+        }
       }
       & .dir3 {
         background-image: url(../public/img/four.jpg);
+        .description {
+          background: #2e1d67;
+        }
       }
       & .dir4 {
         background-image: url(../public/img/five.jpg);
+        .description {
+          background: #eccb43;
+        }
       }
       & .dir5 {
         background-image: url(../public/img/six.jpg);
+        .description {
+          background: #b6b2cd;
+        }
       }
       & .active {
         width: 600px;
         .description {
           backdrop-filter: blur(10px);
-          background: rgba(1, 157, 161, 0.5);
+          opacity: 0.9;
           p {
             color: white;
             font-size: 32px;
