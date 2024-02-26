@@ -9,5 +9,14 @@
   },
   "slider": {
     "title": "Directions"
-  }
+  },
+  "directions": {
+    "0": "Sustainable Energy",
+    "1": "Green Technologies",
+    "2": "High Tech Medicine",
+    "3": "Space Technology",
+    "4": "Agro Industry",
+    "5": "Digital Revolution"
+  },
+  "DataDirectionsTranslation": {}
 }
