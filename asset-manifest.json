@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landinghackaton/static/css/main.b9b73f4f.css",
-    "main.js": "/landinghackaton/static/js/main.b6a7fed2.js",
+    "main.js": "/landinghackaton/static/js/main.3fa79267.js",
     "static/js/453.0782717b.chunk.js": "/landinghackaton/static/js/453.0782717b.chunk.js",
     "static/media/five.jpg": "/landinghackaton/static/media/five.bbf8159f62c13d20da6e.jpg",
     "static/media/six.jpg": "/landinghackaton/static/media/six.65c80048f3cbf36087f2.jpg",
@@ -12,11 +12,11 @@
     "index.html": "/landinghackaton/index.html",
     "static/media/getFetch.cjs": "/landinghackaton/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.b9b73f4f.css.map": "/landinghackaton/static/css/main.b9b73f4f.css.map",
-    "main.b6a7fed2.js.map": "/landinghackaton/static/js/main.b6a7fed2.js.map",
+    "main.3fa79267.js.map": "/landinghackaton/static/js/main.3fa79267.js.map",
     "453.0782717b.chunk.js.map": "/landinghackaton/static/js/453.0782717b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9b73f4f.css",
-    "static/js/main.b6a7fed2.js"
+    "static/js/main.3fa79267.js"
   ]
 }
