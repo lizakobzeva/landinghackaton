@@ -93,7 +93,6 @@ a {
   justify-content: space-between;
 }
 .slider .inner .directions .direction {
-  background-image: url(../public/img/direction.png);
   background-position: center center;
   background-size: cover;
   width: 110px;
@@ -122,6 +121,24 @@ a {
 }
 .slider .inner .directions .direction .description img {
   display: block;
+}
+.slider .inner .directions .dir0 {
+  background-image: url(../public/img/first.jpg);
+}
+.slider .inner .directions .dir1 {
+  background-image: url(../public/img/second.jpg);
+}
+.slider .inner .directions .dir2 {
+  background-image: url(../public/img/direction.png);
+}
+.slider .inner .directions .dir3 {
+  background-image: url(../public/img/four.jpg);
+}
+.slider .inner .directions .dir4 {
+  background-image: url(../public/img/five.jpg);
+}
+.slider .inner .directions .dir5 {
+  background-image: url(../public/img/six.jpg);
 }
 .slider .inner .directions .active {
   width: 600px;

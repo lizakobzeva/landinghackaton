@@ -90,7 +90,7 @@ a {
       display: flex;
       justify-content: space-between;
       .direction {
-        background-image: url(../public/img/direction.png);
+        // background-image: url(../public/img/direction.png);
         background-position: center center;
         background-size: cover;
         width: 110px;
@@ -119,6 +119,24 @@ a {
             display: block;
           }
         }
+      }
+      & .dir0 {
+        background-image: url(../public/img/first.jpg);
+      }
+      & .dir1 {
+        background-image: url(../public/img/second.jpg);
+      }
+      & .dir2 {
+        background-image: url(../public/img/direction.png);
+      }
+      & .dir3 {
+        background-image: url(../public/img/four.jpg);
+      }
+      & .dir4 {
+        background-image: url(../public/img/five.jpg);
+      }
+      & .dir5 {
+        background-image: url(../public/img/six.jpg);
       }
       & .active {
         width: 600px;
