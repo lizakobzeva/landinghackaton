@@ -18,5 +18,41 @@
     "4": "Agro Industry",
     "5": "Digital Revolution"
   },
-  "DataDirectionsTranslation": {}
+  "DataDirectionsTranslation": {
+    "0": {
+      "0": "Give new energy to people, develop a project for the development of the country's energy system",
+      "1": "Develop intelligent systems and innovative solutions to ensure energy efficiency in the oil and gas sector",
+      "2": "Develop an effective energy supply solution for new production and model its development in 10-15 years"
+    },
+    "1": {
+      "0": "Develop an open access environmental monitoring system at SIBUR facilities to monitor the environmental situation at the enterprise",
+      "1": "Non-investment methods for increasing profitability at plywood enterprise",
+      "2": "The rubbish crisis is one of the global environmental problems. And you have a chance to take part in its solution! Together with the world's leading state-owned corporation, formulate a global worldwide strategy for the organisation of hazardous industrial waste management for decades to come."
+    },
+    "2": {
+      "0": "How to make the personalized medicine of the future accessible and safe for everyone?"
+    },
+    "3": {
+      "0": "Simulation of satellite launch into space",
+      "1": "Develop the concept of a modern proving ground for running training events and competitions in the field of “Unmanned Robotics”"
+    },
+    "4": {
+      "0": "Propose a solution to the challenge of providing adequate good quality feed to livestock to raise and maintain their productivity to prevent food crisis",
+      "1": "Develop proposals to reduce chemical plant protection measures, save crops and protect the land",
+      "2": "Develop a comprehensive program to reduce the use of antibiotics in livestock production",
+      "3": "Develop a program of individual agricultural enterprise intensification to increase food production without damaging the environment",
+      "4": "Develop a programme to establish an innovative genetic centre for animal selection.",
+      "5": "Solve a priority logistics problem - the international transport of food."
+    },
+    "5": {
+      "0": "WebAuthn standard user authentication in the Russian way ",
+      "1": "Identify the most relevant sustainable development goal for a country or region, think through ways to achieve it and create an appropriate image",
+      "2": "Protect the world's population from cyber fraudsters and offer your own format for neutralizing AI threats",
+      "3": "The development of the format of goods delivery by small delivery robots faces a number of challenges, one of which is the use of road infrastructure shared with pedestrians. As part of the hackathon, participants are invited to immerse themselves in the atmosphere of the city of the future and solve this problem.",
+      "4": "Solve the problem of sharing road infrastructure between chauffeur-driven cars and unmanned vehicles. Accelerate the future.",
+      "5": "mart cities or factories of the future, what are they like? Think about how to organise the work to create and operate them. What is the role of automated and robotic systems in this?",
+      "6": "Are you ready to dive into the world of blockchain technology and explore its revolutionary impact on loyalty programmes? We invite you to discover the potential of blockchain, smart contracts and NFT to transform traditional approaches to customer loyalty.",
+      "7": "What can education look like in a few years? How to make industry knowledge-intensive and science in demand? Perhaps we need to create a task market where they propose projects and others execute them? Think about this task with your team and propose your vision"
+    }
+  }
 }
