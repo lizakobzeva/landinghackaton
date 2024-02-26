@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Header {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  width: 27%;
+  justify-content: space-between;
+}
+.Header .ButtonChangeLanguage {
+  background-color: white;
+  border: solid 2px;
+  border-radius: 24px;
+  padding: 10px 15px;
+  display: inline-block;
+}
+.Header .ButtonChangeLanguage button {
+  font-size: 20px;
+  background: transparent;
+  padding: 5px;
+  border: none;
+  font-weight: 600;
+}
+.Header .ButtonChangeLanguage .active {
+  color: rgb(1, 157, 161);
+}
+.Header h2 {
+  margin-left: 50px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.Main {
+  width: 100%;
+}
+.Main .inner {
+  text-align: center;
+  width: 45%;
+  margin: 15vh auto;
+}
+.Main .inner .BeforeBeginning {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Main .inner .BeforeBeginning .title {
+  padding-top: 15px;
+  border: solid 2px;
+  border-radius: 20px;
+  height: 70px;
+  width: 400px;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+.Main .inner .BeforeBeginning .Timer {
+  font-size: 40px;
+}
+.Main .inner h2 {
+  font-size: 130px;
+}
+.Main .inner .apply {
+  padding-top: 15px;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  border: solid 2px;
+  border-radius: 20px;
+  font-size: 36px;
+}/*# sourceMappingURL=style.css.map */
