@@ -104,7 +104,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.0")}</p>
 
-                <img src="../img/0.svg" alt="" />
+                <img src="../public/img/0.svg" alt="" />
               </div>
             </div>
             <div
@@ -116,7 +116,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.1")}</p>
 
-                <img src="../img/1.svg" alt="" />
+                <img src="../public/img/1.svg" alt="" />
               </div>
             </div>
             <div
@@ -128,7 +128,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.2")}</p>
 
-                <img src="../img/1.svg" alt="" />
+                <img src="../public/img/1.svg" alt="" />
               </div>
             </div>
             <div
@@ -140,7 +140,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.3")}</p>
 
-                <img src="../img/3.svg" alt="" />
+                <img src="../public/img/3.svg" alt="" />
               </div>
             </div>
             <div
@@ -152,7 +152,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.4")}</p>
 
-                <img src="../img/4.svg" alt="" />
+                <img src="../public/img/4.svg" alt="" />
               </div>
             </div>
             <div
@@ -164,7 +164,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.5")}</p>
 
-                <img src="../img/5.svg" alt="" />
+                <img src="../public/img/5.svg" alt="" />
               </div>
             </div>
           </div>
