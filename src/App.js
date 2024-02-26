@@ -33,27 +33,63 @@ function App() {
             <div
               className={directionNum == 0 ? "direction active" : "direction"}
               onClick={() => SetDirectionNum(0)}
-            ></div>
+            >
+              <div className="description">
+                <p>Высокотехнологичная медицина</p>
+
+                <img src="../img/rocket.svg" alt="" />
+              </div>
+            </div>
             <div
               className={directionNum == 1 ? "direction active" : "direction"}
               onClick={() => SetDirectionNum(1)}
-            ></div>
+            >
+              <div className="description">
+                <p>Высокотехнологичная медицина</p>
+
+                <img src="../img/rocket.svg" alt="" />
+              </div>
+            </div>
             <div
               className={directionNum == 2 ? "direction active" : "direction"}
               onClick={() => SetDirectionNum(2)}
-            ></div>
+            >
+              <div className="description">
+                <p>Высокотехнологичная медицина</p>
+
+                <img src="../img/rocket.svg" alt="" />
+              </div>
+            </div>
             <div
               className={directionNum == 3 ? "direction active" : "direction"}
               onClick={() => SetDirectionNum(3)}
-            ></div>
+            >
+              <div className="description">
+                <p>Высокотехнологичная медицина</p>
+
+                <img src="../img/rocket.svg" alt="" />
+              </div>
+            </div>
             <div
               className={directionNum == 4 ? "direction active" : "direction"}
               onClick={() => SetDirectionNum(4)}
-            ></div>
+            >
+              <div className="description">
+                <p>Высокотехнологичная медицина</p>
+
+                <img src="../img/rocket.svg" alt="" />
+              </div>
+            </div>
             <div
               className={directionNum == 5 ? "direction active" : "direction"}
               onClick={() => SetDirectionNum(5)}
-            ></div>
+            >
+              <div className="description">
+                <p>Высокотехнологичная медицина</p>
+
+                <img src="../img/rocket.svg" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -96,7 +96,43 @@
   height: 600px;
   border-radius: 30px;
   transition: 1s;
+  position: relative;
+}
+.slider .inner .directions .direction .description {
+  transition: 1s;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(1, 157, 161);
+  border-radius: 0 0 30px 30px;
+}
+.slider .inner .directions .direction .description p {
+  transition: 0.5s;
+  font-size: 0px;
+  opacity: 0;
+}
+.slider .inner .directions .direction .description img {
+  display: block;
 }
 .slider .inner .directions .active {
   width: 600px;
+}
+.slider .inner .directions .active .description {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background: rgba(1, 157, 161, 0.5);
+}
+.slider .inner .directions .active .description p {
+  color: white;
+  font-size: 32px;
+  opacity: 1;
+  transition: 1s;
+  display: inline;
+}
+.slider .inner .directions .active .description img {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
