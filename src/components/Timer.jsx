@@ -11,7 +11,6 @@ export default function Timer() {
     setDays(timeleft.getDate());
     setHours(timeleft.getHours());
     setMinutes(timeleft.getMinutes());
-    console.log(days + "" + hours + "" + minutes);
   };
   setInterval(timer, 10000);
   useEffect(() => {

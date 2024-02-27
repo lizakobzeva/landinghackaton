@@ -122,37 +122,37 @@ a {
   display: block;
 }
 .slider .inner .directions .dir0 {
-  background-image: url(../public/img/first.jpg);
+  background-image: url(../public/assets/first.jpg);
 }
 .slider .inner .directions .dir0 .description {
   background: #c63252;
 }
 .slider .inner .directions .dir1 {
-  background-image: url(../public/img/second.jpg);
+  background-image: url(../public/assets/second.jpg);
 }
 .slider .inner .directions .dir1 .description {
   background: #8c32a2;
 }
 .slider .inner .directions .dir2 {
-  background-image: url(../public/img/direction.png);
+  background-image: url(../public/assets/direction.png);
 }
 .slider .inner .directions .dir2 .description {
   background: rgb(1, 157, 161);
 }
 .slider .inner .directions .dir3 {
-  background-image: url(../public/img/four.jpg);
+  background-image: url(../public/assets/four.jpg);
 }
 .slider .inner .directions .dir3 .description {
   background: #2e1d67;
 }
 .slider .inner .directions .dir4 {
-  background-image: url(../public/img/five.jpg);
+  background-image: url(../public/assets/five.jpg);
 }
 .slider .inner .directions .dir4 .description {
   background: #eccb43;
 }
 .slider .inner .directions .dir5 {
-  background-image: url(../public/img/six.jpg);
+  background-image: url(../public/assets/six.jpg);
 }
 .slider .inner .directions .dir5 .description {
   background: #b6b2cd;
@@ -162,7 +162,7 @@ a {
 }
 .slider .inner .directions .active .description {
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   opacity: 0.9;
 }
 .slider .inner .directions .active .description p {
@@ -223,4 +223,4 @@ a {
   justify-content: center;
   align-items: center;
   display: flex;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

@@ -9,16 +9,16 @@ export default function Header() {
       <h2>{t(`header.logo`)}</h2>
       <div className="ButtonChangeLanguage">
         <button
-          className={i18n.language == "Ru" ? "active" : ""}
+          className={i18n.language === "ru" ? "active" : ""}
           type="submit"
-          onClick={() => i18n.changeLanguage("Ru")}
+          onClick={() => i18n.changeLanguage("ru")}
         >
           RU
         </button>
         <button
-          className={i18n.language == "En" ? "active" : ""}
+          className={i18n.language === "en" ? "active" : ""}
           type="submit"
-          onClick={() => i18n.changeLanguage("En")}
+          onClick={() => i18n.changeLanguage("en")}
         >
           EN
         </button>

@@ -97,74 +97,74 @@ function App() {
           <div className="directions">
             <div
               className={
-                directionNum == 0 ? `direction active dir0` : `direction dir0`
+                directionNum === 0 ? `direction active dir0` : `direction dir0`
               }
               onClick={() => SetDirectionNum(0)}
             >
               <div className="description">
                 <p>{t("directions.0")}</p>
 
-                <img src="../public/img/0.svg" alt="" />
+                <img src="../public/assets/0.svg" alt="" />
               </div>
             </div>
             <div
               className={
-                directionNum == 1 ? "direction active dir1" : "direction dir1"
+                directionNum === 1 ? "direction active dir1" : "direction dir1"
               }
               onClick={() => SetDirectionNum(1)}
             >
               <div className="description">
                 <p>{t("directions.1")}</p>
 
-                <img src="../public/img/1.svg" alt="" />
+                <img src="../public/assets/1.svg" alt="" />
               </div>
             </div>
             <div
               className={
-                directionNum == 2 ? "direction active dir2" : "direction dir2"
+                directionNum === 2 ? "direction active dir2" : "direction dir2"
               }
               onClick={() => SetDirectionNum(2)}
             >
               <div className="description">
                 <p>{t("directions.2")}</p>
 
-                <img src="../public/img/1.svg" alt="" />
+                <img src="../public/assets/1.svg" alt="" />
               </div>
             </div>
             <div
               className={
-                directionNum == 3 ? "direction active dir3" : "direction dir3"
+                directionNum === 3 ? "direction active dir3" : "direction dir3"
               }
               onClick={() => SetDirectionNum(3)}
             >
               <div className="description">
                 <p>{t("directions.3")}</p>
 
-                <img src="../public/img/3.svg" alt="" />
+                <img src="../public/assets/3.svg" alt="" />
               </div>
             </div>
             <div
               className={
-                directionNum == 4 ? "direction active dir4" : "direction dir4"
+                directionNum === 4 ? "direction active dir4" : "direction dir4"
               }
               onClick={() => SetDirectionNum(4)}
             >
               <div className="description">
                 <p>{t("directions.4")}</p>
 
-                <img src="../public/img/4.svg" alt="" />
+                <img src="../assets/4.svg" alt="" />
               </div>
             </div>
             <div
               className={
-                directionNum == 5 ? "direction active dir5" : "direction dir5"
+                directionNum === 5 ? "direction active dir5" : "direction dir5"
               }
               onClick={() => SetDirectionNum(5)}
             >
               <div className="description">
                 <p>{t("directions.5")}</p>
 
-                <img src="../public/img/5.svg" alt="" />
+                <img src="../public/assets/5.svg" alt="" />
               </div>
             </div>
           </div>
