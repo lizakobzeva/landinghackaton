@@ -75,6 +75,12 @@ function App() {
 
   return (
     <div>
+      <img
+        src="/landinghackaton/assets/MainPage2.jpeg"
+        alt=""
+        className="Background"
+      />
+
       <Header />
 
       <div className="Main">
@@ -87,13 +93,92 @@ function App() {
           </div>
 
           <h2>{t(`main.hackathon`)}</h2>
-          <div className="apply">{t(`main.apply`)}</div>
+          <a href="#apply">
+            <div className="apply">{t(`main.apply`)}</div>
+          </a>
+        </div>
+      </div>
+
+      <div className="HackathonDesctiption">
+        <div className="container">
+          <div className="MainInner">
+            <div className="MainHead">
+              <h4 className="MainHeadTitle">
+                {t("HackathonDesctiption.MainHeadTitle")}
+              </h4>
+              <img
+                alt=""
+                src={`/landinghackaton/assets/Illustration_1.png`}
+                className="MainHeadImg"
+              />
+              <p className="MainHeadDescription">
+                {t("HackathonDesctiption.MainHeadDescription")}
+              </p>
+            </div>
+            <img
+              src="/landinghackaton/assets/line.png"
+              alt=""
+              className="MainLine"
+            />
+            <ul className="MainListInfo">
+              <li className="MainInfoItem">
+                <div className="InfoItemGroup">
+                  <h3 className="InfoItemTitle">
+                    {t("HackathonDesctiption.InfoItemTitle1")}
+                  </h3>
+                  <p className="InfoItemDescription">
+                    {t("HackathonDesctiption.InfoItemDescription1")}
+                  </p>
+                </div>
+                <img
+                  src="/landinghackaton/assets/Illustration_1.jpeg"
+                  alt=""
+                  className="InfoItemImg"
+                />
+              </li>
+              <li className="MainInfoItem">
+                <img
+                  src="/landinghackaton/assets/Illustration_3.png"
+                  alt=""
+                  className="InfoItemImg"
+                />
+                <div className="InfoItemGroup">
+                  <h3 className="InfoItemTitle">
+                    {t("HackathonDesctiption.InfoItemTitle2")}
+                  </h3>
+                  <p className="InfoItemDescription">
+                    {t("HackathonDesctiption.InfoItemDescription2")}
+                  </p>
+                </div>
+              </li>
+              <li className="MainInfoItem">
+                <div className="InfoItemGroup">
+                  <h3 className="InfoItemTitle">
+                    {t("HackathonDesctiption.InfoItemTitle3")}
+                  </h3>
+                  <p className="InfoItemDescription">
+                    {t("HackathonDesctiption.InfoItemDescription3")}
+                  </p>
+                </div>
+                <img
+                  src="/landinghackaton/assets/Illustration_4.png"
+                  alt=""
+                  className="InfoItemImg"
+                />
+              </li>
+            </ul>
+            <img
+              src="/landinghackaton/assets/line.png"
+              alt=""
+              className="MainLine"
+            />
+          </div>
         </div>
       </div>
 
       <div className="slider">
         <div className="inner">
-          <h4>{t("slider.title")}</h4>
+          <h4 id="apply">{t("slider.title")}</h4>
           <div className="directions">
             <div
               className={
@@ -104,7 +189,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.0")}</p>
 
-                <img src="../public/assets/0.svg" alt="" />
+                <img src="/landinghackaton/assets/0.svg" alt="" />
               </div>
             </div>
             <div
@@ -116,7 +201,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.1")}</p>
 
-                <img src="../public/assets/1.svg" alt="" />
+                <img src="/landinghackaton/assets/1.svg" alt="" />
               </div>
             </div>
             <div
@@ -128,7 +213,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.2")}</p>
 
-                <img src="../public/assets/1.svg" alt="" />
+                <img src="/landinghackaton/assets/1.svg" alt="" />
               </div>
             </div>
             <div
@@ -140,7 +225,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.3")}</p>
 
-                <img src="../public/assets/3.svg" alt="" />
+                <img src="/landinghackaton/assets/3.svg" alt="" />
               </div>
             </div>
             <div
@@ -152,7 +237,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.4")}</p>
 
-                <img src="../assets/4.svg" alt="" />
+                <img src="/landinghackaton/assets/4.svg" alt="" />
               </div>
             </div>
             <div
@@ -164,7 +249,7 @@ function App() {
               <div className="description">
                 <p>{t("directions.5")}</p>
 
-                <img src="../public/assets/5.svg" alt="" />
+                <img src="/landinghackaton/assets/5.svg" alt="" />
               </div>
             </div>
           </div>
@@ -185,6 +270,57 @@ function App() {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </div>
+      <div className="Footer">
+        <div class="container">
+          <div class="FooterInner">
+            <ul class="FooterList">
+              <li class="FooterItem">
+                <img
+                  class="FooterImg"
+                  alt=""
+                  src="/landinghackaton/assets/footer_img_1.jpeg"
+                />
+              </li>
+              <li class="FooterItem">
+                <img
+                  class="FooterImg"
+                  alt=""
+                  src="/landinghackaton/assets/footer_img_2.jpeg"
+                />
+              </li>
+              <li class="FooterItem">
+                <img
+                  class="FooterImg"
+                  alt=""
+                  src="/landinghackaton/assets/footer_img_3.jpeg"
+                />
+              </li>
+              <li class="FooterItem">
+                <img
+                  class="FooterImg"
+                  alt=""
+                  src="/landinghackaton/assets/footer_img_4.jpeg"
+                />
+              </li>
+              <li class="FooterItem">
+                <img
+                  class="FooterImg"
+                  alt=""
+                  src="/landinghackaton/assets/footer_img_5.jpeg"
+                />
+              </li>
+              <li class="FooterItem">
+                <img
+                  class="FooterImg"
+                  alt=""
+                  src="/landinghackaton/assets/footer_img_6.jpeg"
+                />
+              </li>
+            </ul>
+            <div class="FooterSup">design by Anshakov Kirill</div>
           </div>
         </div>
       </div>

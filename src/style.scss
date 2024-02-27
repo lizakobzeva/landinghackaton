@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -37,13 +38,23 @@ a {
   }
 }
 
-.Main {
+.Background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
   width: 100%;
+}
 
+.Main {
+  height: 90vh;
+  width: 100%;
   .inner {
     text-align: center;
     width: 45%;
-    margin: 15vh auto;
+    margin: 22vh auto;
+    a {
+      color: #000;
+    }
     .BeforeBeginning {
       display: flex;
       align-items: center;
@@ -77,6 +88,83 @@ a {
   }
 }
 
+.HackathonDesctiption {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .MainInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .MainHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+
+  .MainHeadTitle {
+    color: rgb(31, 57, 44);
+    font-family: "Roboto";
+    font-size: 48px;
+    line-height: 58px;
+    display: inline-block;
+    padding-bottom: 33px;
+  }
+
+  .MainHeadDescription {
+    color: rgb(3, 3, 4);
+    font-family: "Roboto";
+    font-size: 32px;
+    line-height: 38px;
+    display: block;
+    background-color: #fff;
+  }
+
+  .MainListInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    padding-bottom: 40px;
+    .MainInfoItem {
+      display: flex;
+      column-gap: 35px;
+      align-items: center;
+    }
+  }
+
+  .InfoItemTitle {
+    color: rgb(31, 57, 44);
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  .InfoItemDescription {
+    color: rgb(31, 57, 44);
+    font-family: "Roboto";
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .SaraImg {
+    position: absolute;
+    width: 1709.32px;
+    height: 805.45px;
+    left: -850px;
+    top: 100px;
+    transform: rotate(45deg);
+  }
+}
+
 .slider {
   width: 100%;
   .inner {
@@ -85,6 +173,11 @@ a {
     margin: 15vh auto;
     font-weight: 400;
     font-size: 48px;
+    h4 {
+      font-family: "Roboto";
+      font-size: 90px;
+      font-weight: 400;
+    }
     .directions {
       margin-top: 50px;
       display: flex;
@@ -221,6 +314,172 @@ a {
           display: flex;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .SaraImg {
+    display: none;
+  }
+
+  .MainHeadTitle {
+    font-size: 32px;
+    line-height: 20px;
+  }
+
+  .MainHeadDescription {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .InfoItemTitle {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .InfoItemDescription {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .MainInfoItem {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .InfoItemImg {
+    width: 418px;
+    height: 415px;
+  }
+}
+
+@media (max-width: 800px) {
+  .MainHeadTitle {
+    font-size: 26px;
+    line-height: 15px;
+  }
+
+  .MainHeadDescription {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .InfoItemTitle {
+    font-size: 24px;
+    line-height: 25px;
+    padding-bottom: 5px;
+  }
+
+  .InfoItemDescription {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .MainInfoItem {
+    row-gap: 20px;
+  }
+
+  .InfoItemImg {
+    width: 318px;
+    height: 315px;
+  }
+
+  .MainLine {
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .MainHeadTitle {
+    font-size: 22px;
+    line-height: 10px;
+  }
+
+  .MainHeadDescription {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .InfoItemTitle {
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 5px;
+  }
+
+  .InfoItemDescription {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .MainInfoItem {
+    row-gap: 15px;
+  }
+
+  .InfoItemImg {
+    width: 218px;
+    height: 215px;
+  }
+}
+
+@media (max-width: 500px) {
+  .MainHeadTitle {
+    font-size: 16px;
+    line-height: 8px;
+  }
+
+  .MainHeadDescription {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .InfoItemTitle {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+
+  .InfoItemDescription {
+    font-size: 8px;
+  }
+
+  .InfoItemImg {
+    width: 118px;
+    height: 115px;
+  }
+
+  .MainLine {
+    width: 350px;
+  }
+}
+
+.Footer {
+  .container {
+    width: 80%;
+    margin: auto;
+    margin-top: 30vh;
+    .FooterInner {
+      padding: 60px 55px;
+    }
+
+    .FooterList {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 0;
+      box-sizing: border-box;
+      border-bottom: 1px solid rgb(216, 216, 216);
+      border-top: 1px solid rgb(216, 216, 216);
+    }
+
+    .FooterSup {
+      color: rgb(217, 217, 217);
+      font-family: "Inter";
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      text-transform: uppercase;
+      padding-top: 265px;
+      text-align: center;
     }
   }
 }

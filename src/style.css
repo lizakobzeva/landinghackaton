@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -38,13 +39,24 @@ a {
   font-weight: 400;
 }
 
+.Background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+}
+
 .Main {
+  height: 90vh;
   width: 100%;
 }
 .Main .inner {
   text-align: center;
   width: 45%;
-  margin: 15vh auto;
+  margin: 22vh auto;
+}
+.Main .inner a {
+  color: #000;
 }
 .Main .inner .BeforeBeginning {
   display: flex;
@@ -77,6 +89,75 @@ a {
   font-size: 36px;
 }
 
+.HackathonDesctiption .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.HackathonDesctiption .MainInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.HackathonDesctiption .MainHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.HackathonDesctiption .MainHeadTitle {
+  color: rgb(31, 57, 44);
+  font-family: "Roboto";
+  font-size: 48px;
+  line-height: 58px;
+  display: inline-block;
+  padding-bottom: 33px;
+}
+.HackathonDesctiption .MainHeadDescription {
+  color: rgb(3, 3, 4);
+  font-family: "Roboto";
+  font-size: 32px;
+  line-height: 38px;
+  display: block;
+  background-color: #fff;
+}
+.HackathonDesctiption .MainListInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  padding-bottom: 40px;
+}
+.HackathonDesctiption .MainListInfo .MainInfoItem {
+  display: flex;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+  align-items: center;
+}
+.HackathonDesctiption .InfoItemTitle {
+  color: rgb(31, 57, 44);
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.HackathonDesctiption .InfoItemDescription {
+  color: rgb(31, 57, 44);
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 29px;
+}
+.HackathonDesctiption .SaraImg {
+  position: absolute;
+  width: 1709.32px;
+  height: 805.45px;
+  left: -850px;
+  top: 100px;
+  transform: rotate(45deg);
+}
+
 .slider {
   width: 100%;
 }
@@ -86,6 +167,11 @@ a {
   margin: 15vh auto;
   font-weight: 400;
   font-size: 48px;
+}
+.slider .inner h4 {
+  font-family: "Roboto";
+  font-size: 90px;
+  font-weight: 400;
 }
 .slider .inner .directions {
   margin-top: 50px;
@@ -162,7 +248,7 @@ a {
 }
 .slider .inner .directions .active .description {
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   opacity: 0.9;
 }
 .slider .inner .directions .active .description p {
@@ -223,4 +309,140 @@ a {
   justify-content: center;
   align-items: center;
   display: flex;
-} /*# sourceMappingURL=style.css.map */
+}
+
+@media (max-width: 1100px) {
+  .SaraImg {
+    display: none;
+  }
+  .MainHeadTitle {
+    font-size: 32px;
+    line-height: 20px;
+  }
+  .MainHeadDescription {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .InfoItemTitle {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .InfoItemDescription {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .MainInfoItem {
+    justify-content: center;
+    align-items: center;
+  }
+  .InfoItemImg {
+    width: 418px;
+    height: 415px;
+  }
+}
+@media (max-width: 800px) {
+  .MainHeadTitle {
+    font-size: 26px;
+    line-height: 15px;
+  }
+  .MainHeadDescription {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .InfoItemTitle {
+    font-size: 24px;
+    line-height: 25px;
+    padding-bottom: 5px;
+  }
+  .InfoItemDescription {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .MainInfoItem {
+    row-gap: 20px;
+  }
+  .InfoItemImg {
+    width: 318px;
+    height: 315px;
+  }
+  .MainLine {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) {
+  .MainHeadTitle {
+    font-size: 22px;
+    line-height: 10px;
+  }
+  .MainHeadDescription {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .InfoItemTitle {
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 5px;
+  }
+  .InfoItemDescription {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .MainInfoItem {
+    row-gap: 15px;
+  }
+  .InfoItemImg {
+    width: 218px;
+    height: 215px;
+  }
+}
+@media (max-width: 500px) {
+  .MainHeadTitle {
+    font-size: 16px;
+    line-height: 8px;
+  }
+  .MainHeadDescription {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .InfoItemTitle {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  .InfoItemDescription {
+    font-size: 8px;
+  }
+  .InfoItemImg {
+    width: 118px;
+    height: 115px;
+  }
+  .MainLine {
+    width: 350px;
+  }
+}
+.Footer .container {
+  width: 80%;
+  margin: auto;
+  margin-top: 30vh;
+}
+.Footer .container .FooterInner {
+  padding: 60px 55px;
+}
+.Footer .container .FooterList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  border-top: 1px solid rgb(216, 216, 216);
+}
+.Footer .container .FooterSup {
+  color: rgb(217, 217, 217);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding-top: 265px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

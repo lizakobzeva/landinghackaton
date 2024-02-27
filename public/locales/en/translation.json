@@ -7,6 +7,17 @@
     "BeforBeginning": "Before the start",
     "apply": "Apply"
   },
+  "HackathonDesctiption": {
+    "MainHeadTitle": "What is a hackathon from Sirius?",
+    "MainHeadDescription": "A hackathon is a competition where participants solve a task assigned to them within a certain period of time Hackathons are held in different fields, but most often in the IT industry. Participants are divided into teams and develop a prototype of a product or project. The goal of the hackathon is to find new solutions for the benefit of business. Hackathons help improve developer skills, add a real project to your portfolio, find like-minded people and earn money.. To participate in the hackathon, you need to register and join the team",
+    "InfoItemTitle1": "1# Major partners",
+    "InfoItemDescription1": "Hackathon partners: State Atomic Energy Corporation Rosatom, Russian oil company Gazprom Neft, T1 Group, biotechnology company GENERIUM, investment technology corporation VK, IT company Yandex, Tinkoff company, . agro-industrial company `Protect Feed` and others.",
+    "InfoItemTitle2": "2# Interesting tasks",
+    "InfoItemDescription2": "Real case from partner companies in 6 areas: high-tech medicine, green energy, digital revolution, new agro-industry, space technology and environmentally friendly technologies. Team mentors are leading experts from high-tech companies.",
+    "InfoItemTitle3": "3# New acquaintances",
+    "InfoItemDescription3": "Once the concept is approved, the agency's designers and developers bring it to life. This includes creating visual assets, writing copy, and developing multimedia content."
+  },
+
   "slider": {
     "title": "Directions"
   },
