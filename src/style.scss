@@ -19,7 +19,7 @@ a {
     border: solid 2px;
     border-radius: 24px;
     padding: 10px 15px;
-    display: inline-block;
+    display: inline-flex;
     button {
       font-size: 20px;
       background: transparent;
@@ -90,7 +90,7 @@ a {
 
 .HackathonDesctiption {
   .container {
-    max-width: 1000px;
+    max-width: 50%;
     margin: 0 auto;
   }
   .MainInner {
@@ -181,7 +181,8 @@ a {
     .directions {
       margin-top: 50px;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 40px;
       .direction {
         background-position: center center;
         background-size: cover;
@@ -284,6 +285,7 @@ a {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
+      justify-content: space-around;
       .discriptionBlockItem {
         position: relative;
         text-align: left;
@@ -318,7 +320,103 @@ a {
   }
 }
 
-@media (max-width: 1100px) {
+.Footer {
+  .container {
+    width: 80%;
+    margin: auto;
+    margin-top: 30vh;
+    .FooterInner {
+      padding: 60px 55px;
+    }
+
+    .FooterList {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 0;
+      box-sizing: border-box;
+      border-bottom: 1px solid rgb(216, 216, 216);
+      border-top: 1px solid rgb(216, 216, 216);
+    }
+
+    .FooterSup {
+      color: rgb(217, 217, 217);
+      font-family: "Inter";
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      text-transform: uppercase;
+      padding-top: 265px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1800px) {
+  .Main {
+    .inner {
+      .BeforeBeginning {
+        h1 {
+          font-size: 70px;
+        }
+        .title {
+          font-size: 30px;
+        }
+      }
+
+      h2 {
+        font-size: 110px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .Main {
+    .inner {
+      .BeforeBeginning {
+        h1 {
+          font-size: 50px;
+        }
+        .title {
+          width: 300px;
+          font-size: 25px;
+          height: 60px;
+        }
+      }
+
+      h2 {
+        font-size: 80px;
+      }
+    }
+  }
+  .slider {
+    .inner {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .Main {
+    .inner {
+      .BeforeBeginning {
+        h1 {
+          font-size: 50px;
+        }
+        .title {
+          font-size: 20px;
+          width: 200px;
+          height: 50px;
+        }
+      }
+
+      h2 {
+        font-size: 60px;
+      }
+    }
+  }
+
   .SaraImg {
     display: none;
   }
@@ -449,37 +547,5 @@ a {
 
   .MainLine {
     width: 350px;
-  }
-}
-
-.Footer {
-  .container {
-    width: 80%;
-    margin: auto;
-    margin-top: 30vh;
-    .FooterInner {
-      padding: 60px 55px;
-    }
-
-    .FooterList {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 60px 0;
-      box-sizing: border-box;
-      border-bottom: 1px solid rgb(216, 216, 216);
-      border-top: 1px solid rgb(216, 216, 216);
-    }
-
-    .FooterSup {
-      color: rgb(217, 217, 217);
-      font-family: "Inter";
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 30px;
-      text-transform: uppercase;
-      padding-top: 265px;
-      text-align: center;
-    }
   }
 }
