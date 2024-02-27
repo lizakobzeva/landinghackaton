@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/landinghackaton/static/css/main.e608ff43.css",
+    "main.css": "/landinghackaton/static/css/main.90d1b53c.css",
     "main.js": "/landinghackaton/static/js/main.0d17cb8f.js",
     "static/js/453.0782717b.chunk.js": "/landinghackaton/static/js/453.0782717b.chunk.js",
     "static/media/five.jpg": "/landinghackaton/static/media/five.bbf8159f62c13d20da6e.jpg",
     "static/media/six.jpg": "/landinghackaton/static/media/six.65c80048f3cbf36087f2.jpg",
-    "static/media/four.jpg": "/landinghackaton/static/media/four.13ca4bbdf91d1e8f51d0.jpg",
     "static/media/first.jpg": "/landinghackaton/static/media/first.d54ce95d051550f4b4fb.jpg",
     "static/media/second.jpg": "/landinghackaton/static/media/second.098ba2b1e96b3834483e.jpg",
     "static/media/direction.png": "/landinghackaton/static/media/direction.70ebbc851e3f0e455c37.png",
+    "static/media/four.jpg": "/landinghackaton/static/media/four.9f976193a31c72d98d40.jpg",
     "index.html": "/landinghackaton/index.html",
     "static/media/getFetch.cjs": "/landinghackaton/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.e608ff43.css.map": "/landinghackaton/static/css/main.e608ff43.css.map",
+    "main.90d1b53c.css.map": "/landinghackaton/static/css/main.90d1b53c.css.map",
     "main.0d17cb8f.js.map": "/landinghackaton/static/js/main.0d17cb8f.js.map",
     "453.0782717b.chunk.js.map": "/landinghackaton/static/js/453.0782717b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e608ff43.css",
+    "static/css/main.90d1b53c.css",
     "static/js/main.0d17cb8f.js"
   ]
 }
